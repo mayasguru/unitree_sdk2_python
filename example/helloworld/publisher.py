@@ -5,7 +5,7 @@ from user_data import *
 
 
 if __name__ == "__main__":
-    ChannelFactoryInitialize()
+    ChannelFactoryInitialize(0, "wlan0")
 
     # Create a publisher to publish the data defined in UserData class
     pub = ChannelPublisher("topic", UserData)
